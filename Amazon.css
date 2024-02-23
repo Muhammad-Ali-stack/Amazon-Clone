@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: rgb(245, 239, 239);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("assets/Amazon.jpg");
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** Box 2 **/
+.adressfirst {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.address_second {
+
+    font-size: 1rem;
+
+}
+
+.addicon {
+    display: flex;
+    align-items: center;
+}
+
+/** Box 3 **/
+.navsearch {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+
+
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.searchicon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+
+}
+
+.hellosignin {
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.accandlist {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navsearch:hover {
+    border: 2px solid orange;
+}
+
+.cartpic i {
+    font-size: 35px;
+}
+
+.navcart {
+    display: flex;
+    font: 100;
+
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    width: 100%;
+
+}
+
+.ops p {
+    height: 40px;
+    display: inline;
+    color: white;
+    margin-left: 10px;
+    font-weight: 300px;
+}
+
+.all {
+    display: inline;
+    color: white;
+}
+
+.extra {
+    align-items: center;
+    justify-content: left;
+}
+
+.hero-section {
+    background-image: url(assets/hero-image.jpg);
+    height: 300px;
+    background-size: cover;
+}
+
+.box {
+
+
+    width: 23%;
+    border: solid black 2px;
+    display: flex;
+    height: 300px;
+    background-color: #f3f3f3;
+
+}
+
+.seemore {
+    font-display: bottom;
+}
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+
+.box1img {
+    background-image: url(assets/box1_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box2img {
+    background-image: url(assets/box2_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box3img {
+    background-image: url(assets/box3_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box4img {
+    background-image: url(assets/box4_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box5img {
+    background-image: url(assets/box5_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box6img {
+    background-image: url(assets/box6_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box7img {
+    background-image: url(assets/box7_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box8img {
+    background-image: url(assets/box8_image.jpg);
+    height: 250px;
+    width: 250px;
+    margin-left: 30px;
+    background-size: cover;
+}
+
+.box1heading {
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: 200;
+}
+
+.seemore {
+    color: darkslateblue;
+}
+
+.space {
+    background-image: url(space.jpeg);
+    width: 100%;
+    height: 25px;
+}
